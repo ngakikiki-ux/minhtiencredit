@@ -78,6 +78,7 @@ export default function HomePage() {
     { title: 'Độ tuổi', detail: 'Từ 21 đến 57 tuổi' },
     { title: 'Thâm niên', detail: 'Làm việc từ 2 tháng trở lên' },
     { title: 'Thu nhập', detail: 'Từ 2 triệu đồng/tháng' },
+    { title: 'Nợ xấu', detail: 'Không nợ xấu' },
     { title: 'Khu vực', detail: 'Hỗ trợ toàn quốc' }
   ];
 
@@ -96,7 +97,7 @@ export default function HomePage() {
   ];
 
   const faqs = [
-    { q: 'Điều kiện hỗ trợ cơ bản là gì?', a: 'Bạn cần nằm trong độ tuổi từ 21-57, có công việc ổn định từ 2 tháng và thu nhập từ 2 triệu đồng/tháng. Tùy hình thức vay mà có thêm các giấy tờ bổ trợ khác.' },
+    { q: 'Điều kiện hỗ trợ cơ bản là gì?', a: 'Bạn cần nằm trong độ tuổi từ 21-57, có công việc ổn định từ 2 tháng, thu nhập từ 2 triệu đồng/tháng và không có nợ xấu. Tùy hình thức vay mà có thêm các giấy tờ bổ trợ khác.' },
     { q: 'Tôi có thể đăng ký theo hình thức nào?', a: 'Bạn có thể đăng ký trực tiếp qua form trên website này, gọi hotline 0987 306 837 hoặc nhắn tin qua Zalo để được hỗ trợ tức thì.' },
     { q: 'Bao lâu sẽ có người liên hệ tư vấn?', a: 'Thông thường chuyên viên Tiến sẽ liên hệ lại trong vòng 15-30 phút sau khi nhận được thông tin đăng ký của bạn.' },
     { q: 'Có mất phí tư vấn không?', a: 'Hoàn toàn KHÔNG. Chúng tôi tư vấn miễn phí 100% để giúp bạn tìm ra giải pháp tài chính phù hợp nhất.' },
